@@ -1,0 +1,23 @@
+//Written by dnyaneshwar mane
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n, s = 1, i, c=0,a=0,b=1;
+    cout << "Enter The Fibonic range / last number: ";
+    cin >> n;
+    cout <<endl;
+    for(i = 0; c <= n; i++)
+        {
+            if(!i)
+            cout<<a <<" " <<b;
+    
+            c=a+b;
+            a=b;
+             b=c;
+    
+            cout<<" "<< c;
+    
+        }
+    return 0;
+}
