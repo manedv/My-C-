@@ -1,2 +1,2 @@
-# My-C-
+# My-C++
 This repo contains my cpp home works 
